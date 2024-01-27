@@ -80,18 +80,18 @@ nav {
 } */
 
 .content-container{
-  max-width: 1239px;
-  min-height: 750px;
-  max-height: 750px;
-  margin: 0px;
-  background-image: url('./images/image3.png');
-  background-size: 1239px 760px;
-  background-position: 0% 106%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    max-width: 1239px;
+    min-height: 759px;
+    max-height: 759px;
+    margin: 0px;
+    background-image: url('./images/image3.png');
+    background-size: 1239px 794px;
+    background-position: 0% 92px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-container p{
