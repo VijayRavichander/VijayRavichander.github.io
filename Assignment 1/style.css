@@ -14,19 +14,18 @@ body{
 }
 nav {
     display: flex;
-    padding: 28px 45px 28px 65px;
+    padding: 20px 45px 5px 65px;
     margin: 0px;
     justify-content: space-between;
     /* width: calc(100vw - 100px); */
     width: 1139px;
     max-height: 40px;
-    font-size: 18px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
     position: fixed;
     z-index: 100;
     background-color: white;
 }
-
 .leftnav {
     display: flex;
     color: #aa944f;
@@ -86,13 +85,13 @@ nav {
     margin: 0px;
     background-image: url('./images/image3.png');
     background-size: 1239px 794px;
-    background-position: 0% 92px;
+    background-position: 0% 83px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
 .content-container p{
 
