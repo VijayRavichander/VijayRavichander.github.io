@@ -1,22 +1,11 @@
 import AppBar from "@/components/AppBar";
+import { Hero } from "@/components/Hero";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col">
       <div>
-        <AppBar />
-      </div>
-      <div className="flex justify-around">
-          <div>
-            Intro
-          </div>
-          <div>
-            Image
-          </div>
-      </div>
-      <div>
+          <Hero />
       </div>
     </div>
   );
