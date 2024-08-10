@@ -74,7 +74,7 @@ export default function Page() {
         <div className="mx-4">
           <div className="my-3">
             <div className="flex flex-col md:flex-row justify-between">
-              <div className="text-lg">Master's in Computer Science (Artificial Intelligence)</div>
+              <div className="text-lg">Master&apos;s in Computer Science (Artificial Intelligence)</div>
               <div>July 2023 - May 2025</div>
             </div>
             <div className="flex flex-col md:flex-row justify-between">
