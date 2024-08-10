@@ -1,10 +1,27 @@
 import Link from "next/link";
 
 export default function Page() {
+
+  
+    const techStack = [
+      {
+        "category": "Machine Learning",
+        "tools": ["Pytorch", "Transformers", "Scikit-Learn"]
+      },
+      {
+        "category": "Web Development",
+        "tools": ["Next.Js", "React", "Tailwind"]
+      },
+      {
+        "category": "Server & Data",
+        "tools": ["Flask", "Express", "Hono", "Postgres", "Redis", "Kafka", "Docker"]
+      }
+    ]
+  
   return (
-    <div className="p-10">
+    <div className="p-10 md:mx-24">
       <div>
-        <div className="text-4xl py-8">About Me</div>
+        <div className="text-4xl py-6">About Me</div>
         <div className="mx-4">
           I&apos;m Vijay Ravichander, a Master&apos; s student in Computer Science at the 
           <span className="text-red-400 pl-1">
@@ -22,12 +39,12 @@ export default function Page() {
       <div>
         <div className="text-4xl py-8">Work Experience</div>
         <div className="mx-4">
-          <div className="my-3">
-            <div className="flex justify-between">
+          <div className="my-2">
+            <div className="flex flex-col md:flex-row justify-between">
               <div className="text-lg">Software Engineering Intern</div>
               <div>July 2024 - Present</div>
             </div>
-            <div className="flex justify-between">
+            <div className="flex flex-col md:flex-row justify-between">
               <div className="font-thin">
                 <Link href="https://www.linkedin.com/company/program-warehouse/">
                   Program Warehouse
@@ -37,11 +54,11 @@ export default function Page() {
             </div>
           </div>
           <div className="my-7">
-            <div className="flex justify-between">
+            <div className="flex flex-col md:flex-row justify-between">
               <div className="text-lg">Academic Intern</div>
               <div>June 2022 - July 2023</div>
             </div>
-            <div className="flex justify-between">
+            <div className="flex flex-col md:flex-row justify-between">
               <div className="font-thin">
                 <Link href="https://www.linkedin.com/company/program-warehouse/">
                   National University of Singapore
@@ -53,20 +70,44 @@ export default function Page() {
         </div>
       </div>
       <div>
-        <div className="text-4xl py-8">Tech Stack</div>
-        <div className="flex justify-evenly">
-            <div>Pytorch</div>
-            <div>Transformers</div>
-            <div>Flask</div>
-            <div>Next.Js</div>
-            <div>Tailwind</div>
-            <div>Postrgres</div>
-            <div>Express</div>
-            <div>Hono</div>
-            <div>React</div>
-            <div>Docker</div>
-            <div>Redis</div>
-            <div>Kafka</div>
+    <div className="text-4xl py-6">Education</div>
+        <div className="mx-4">
+          <div className="my-3">
+            <div className="flex flex-col md:flex-row justify-between">
+              <div className="text-lg">Master's in Computer Science (Artificial Intelligence)</div>
+              <div>July 2023 - May 2025</div>
+            </div>
+            <div className="flex flex-col md:flex-row justify-between">
+              <div className="font-thin">
+                <Link href="https://www.linkedin.com/company/program-warehouse/">
+                  University of Southern California
+                </Link>
+                <div>
+                  Coursework: Machine Learning, Deep Learning, Applications of NLP, Analysis of Algorithms, Web Technologies, Foundations of A.I, 
+                </div>
+              </div>
+              <div>GPA: 3.65 / 4</div>
+            </div>
+          </div>
+          </div>
+        </div>
+      <div>
+        <div className="text-4xl py-6">Tech Stack</div>
+        <div className="min-w-screen">
+          <div className="grid grid-cols-12">
+            {techStack.map((item, index)=>(
+              <div className="col-span-12 md:col-span-4">
+                <div className="text-lg font-thin">{item.category}</div>
+                <div className="flex flex-col md:flex-row justify-start">
+                  {item.tools.map((tool, index) => (
+                    <div className="mr-3 font-semibold">
+                      {tool}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
     </div>
     </div>

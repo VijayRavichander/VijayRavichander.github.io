@@ -19,7 +19,7 @@ export default function Page() {
         title: "Theory of Mind in LLMs", 
         description: "This project assessed the Theory of Mind capabilities of cutting-edge language models, including GPT-3.5 Turbo and GPT-4 Turbo, using the OpenAI API and various in-context learning techniques. Additionally, I fine-tuned the Mistral 7B Instruct model using QLoRA, a parameter-efficient fine-tuning method, to better understand and predict beliefs, intentions, and actions that diverge from reality. Through this process, I achieved a 30% improvement in the accuracy of Mistral 7B Instruct, demonstrating significant advancements in its ability to comprehend and interpret human thought processes.",
         techStack: "Pytorch, Transformers",
-        link: "https://github.com/VijayRavichander"
+        link: "https://drive.google.com/file/d/1Egl4dKP0coggUte1c5zZfx13BNB-IMUT/view?usp=sharing"
     },
     {
         title: "Paper Trading", 
@@ -42,13 +42,13 @@ export default function Page() {
 
 
   return (
-    <div className = "m-5">
+    <div className = "m-5 md:mx-16">
         <div className="text-4xl py-8">
             Projects
         </div>
         <div className="grid grid-cols-12 justify-items-center">
                 {projects.map((project, index) => (
-                    <div key = {index} className="borderx rounded-xl col-span-6 p-5 mx-9 my-5">
+                    <div key = {index} className="borderx rounded-xl col-span-12 mx-3 md:col-span-6 md:p-5 md:mx-9 my-5">
                         <ProjectCard key = {index} title={project.title} description={project.description}
                         link={project.link}
                         techStack = {project.techStack} />
