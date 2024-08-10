@@ -96,11 +96,11 @@ export default function Page() {
         <div className="min-w-screen">
           <div className="grid grid-cols-12">
             {techStack.map((item, index)=>(
-              <div className="col-span-12 md:col-span-4">
+              <div key = {index} className="col-span-12 md:col-span-4">
                 <div className="text-lg font-thin">{item.category}</div>
                 <div className="flex flex-col md:flex-row justify-start">
                   {item.tools.map((tool, index) => (
-                    <div className="mr-3 font-semibold">
+                    <div key = {index} className="mr-3 font-semibold">
                       {tool}
                     </div>
                   ))}
