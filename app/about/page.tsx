@@ -6,8 +6,8 @@ export default function Page() {
       <div>
         <div className="text-4xl py-8">About Me</div>
         <div className="mx-4">
-          I&apos;m Vijay Ravichander, a Master&apos;s student in Computer Science at the
-          <span className="text-red-400">
+          I&apos;m Vijay Ravichander, a Master&apos; s student in Computer Science at the 
+          <span className="text-red-400 pl-1">
            University of Southern California
           </span>
           , specializing in Artificial Intelligence. With a strong passion for

@@ -10,7 +10,7 @@ export const Hero = () => {
         <div className="text-4xl py-10 w-1/2">
           <div className="py-1">
             Hey there, I&apos;m
-            <span className="text-green-300 font-bold">Vijay Ravichander</span>
+            <span className="text-green-300 font-bold"> Vijay Ravichander</span>
           </div>
           <div className="py-2 leading-10">
             I&apos;m good at building highly asychronous, complex <span className="text-green-300">Websites with web hooks</span> and training <span className="text-green-300">Neural Networks like transformers</span> 
