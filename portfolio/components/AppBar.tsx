@@ -14,6 +14,9 @@ export const AppBar = () => {
                 About
             </div>
             <div>
+                Projects
+            </div>
+            <div>
                 Tech Stack
             </div>
             <div>   
