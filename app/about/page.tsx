@@ -8,7 +8,7 @@ export default function Page() {
         <div className="mx-4">
           I&apos;m Vijay Ravichander, a Master&apos;s student in Computer Science at the
           <span className="text-red-400">
-            University of Southern California
+           University of Southern California
           </span>
           , specializing in Artificial Intelligence. With a strong passion for
           language models, I enjoy training, fine-tuning, and developing
