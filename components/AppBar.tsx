@@ -10,12 +10,13 @@ export const AppBar = () => {
         <div>
         </div>
         <div className="flex justify-evenly text-white w-1/2 text-xl">
+        <div className={`hover:text-green-300 px-2`}>
+            <Link href="/">[Projects]</Link>
+          </div>
           <div className={`hover:text-green-300 px-2`}>
             <Link href="about">[About]</Link>
           </div>
-          <div className={`hover:text-green-300 px-2`}>
-            <Link href="/">[Projects]</Link>
-          </div>
+
         </div>
       </div>
     </div>
