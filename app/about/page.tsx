@@ -1,12 +1,11 @@
+import { Dot } from "lucide-react";
 import Link from "next/link";
-
 export default function Page() {
 
-  
     const techStack = [
       {
         "category": "Machine Learning",
-        "tools": ["Pytorch", "Transformers", "Scikit-Learn"]
+        "tools": ["Pytorch", "Transformers", "Scikit-Learn", "Pandas"]
       },
       {
         "category": "Web Development",
@@ -29,7 +28,7 @@ export default function Page() {
           </span>
           , specializing in Artificial Intelligence. With a strong passion for
           language models, I enjoy training, fine-tuning, and developing
-          innovative solutions. Additionally, I have a keen interest in building
+          innovative A.I solutions. Additionally, I have a keen interest in building
           complex web applications. I&apos;m currently seeking a Co-op position for
           Fall 2024 and Spring 2025, as well as Full-Time roles starting Summer
           2025. I&apos;m excited to leverage my skills and expertise to make a
@@ -96,12 +95,12 @@ export default function Page() {
         <div className="min-w-screen">
           <div className="grid grid-cols-12">
             {techStack.map((item, index)=>(
-              <div key = {index} className="col-span-12 md:col-span-4">
-                <div className="text-lg font-thin">{item.category}</div>
+              <div key = {index} className="col-span-12 lg:col-span-6 my-4">
+                <div className="text-lg text-violet-300 font-bold">{item.category}</div>
                 <div className="flex flex-col md:flex-row justify-start">
                   {item.tools.map((tool, index) => (
                     <div key = {index} className="mr-3 font-semibold">
-                      {tool}
+                      <Dot className="inline md:hidden" /> {tool}
                     </div>
                   ))}
                 </div>
