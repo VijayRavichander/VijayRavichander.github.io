@@ -43,7 +43,7 @@ export default function Home() {
         intro: "Minimalistic stock trading website built with React and Flask",
         description: "A responsive web application for 'Paper Trading' was developed using the MERN (Mongo, Express, React, Node) stack and hosted on GCP, allowing users to simulate stock trading in a 100% risk-free environment. The app features real-time stock search functionality, providing detailed company stock information with instant updates every 15 seconds, as well as a news page that fetches and displays current market and stock news using the Finnhub API. Interactive visualizations of stock trends are also generated using React Highcharts, showcasing stock performance over a one-year period.",
         techStack: "React, Node, Mongo, Express, GCP, Tailwind",
-        image: "/PaperTrading.webp",
+        image: "/paperTrading.webp",
         link: "https://stock-search-assingment3.uw.r.appspot.com/",
         gradient: "bg-gradient-to-l from-white to-red-500"
     },
