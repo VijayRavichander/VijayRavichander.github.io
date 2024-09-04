@@ -92,7 +92,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="hover:text-green-300 px-2">
-                <a href="https://drive.google.com/file/d/1UpSIqDDb9HuNG6WzsS87VW6yz2vt1-Vt/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1aOrajvGS9YdZER8eKnQLKtvqPW7nFRTu/view?usp=sharing">
                     <File className="text-green-300  h-6 w-6" />
                 </a>
               </div>
